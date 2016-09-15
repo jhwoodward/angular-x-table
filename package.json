@@ -1,0 +1,16 @@
+{
+  "name": "x-table",
+  "version": "1.0.0",
+  "description": "Full featured expandable angular 1.5 table component",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "table",
+    "angular",
+    "angularJS",
+    "bootstrap"
+  ],
+  "author": "J H Woodward",
+  "license": "MIT"
+}

@@ -1,0 +1,18 @@
+<div class="st-wrapper">
+    <div ng-show="st.state==='data'" class="st-table-wrapper">
+    </div>
+    <div ng-show="st.state==='loading'" class="st-loading-wrapper">
+        <div ng-switch="st.spinnerType" class="st-loader">
+            <circle-spinner ng-switch-when="circle"></circle-spinner>
+            <cube-grid-spinner ng-switch-default></cube-grid-spinner>
+        </div>
+    </div>
+    <div ng-show="st.state==='noresults'" class="message-empty st-filtered-empty-wrapper">
+            {{st.filteredEmptyText}}
+    </div>
+    <div ng-show="st.state==='empty'" class="{{st.emptyCss || 'message-empty'}} st-empty-wrapper" >
+        <div>
+            {{st.emptyText}}
+        </div>
+    </div>
+</div>
