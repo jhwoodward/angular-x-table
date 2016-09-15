@@ -1,5 +1,5 @@
 /* jshint -W117, -W030 */
-mockData.stableTable = (function () {
+mockData.xtable = (function () {
 
     var data = [
         { id: 1, name: 'John', type:'Parent', age: 10, town: 'Hull', country:'England'},

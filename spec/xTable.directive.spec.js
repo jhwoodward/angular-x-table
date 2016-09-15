@@ -1,5 +1,5 @@
 /* jshint -W117, -W030 */
-describe('Splendid Table Directive', function() {
+describe('X-table directive', function() {
 
     var $compile;
     var $rootScope;
@@ -84,7 +84,7 @@ describe('Splendid Table Directive', function() {
         $compile = _$compile_;
         $timeout = _$timeout_;
         $q = _$q_;
-        mock = mockData.stableTable;
+        mock = mockData.xtable;
         service = mock.getService(_$q_);
         data = angular.copy(mock.data);
         scope = $rootScope.$new();
